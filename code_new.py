@@ -1,4 +1,4 @@
-ID	failed/healthy	Bankruptcy_Failed_YR	Cash/Assets
+ID	failed/healthy	Failed_YR	Cash/Assets
 1	0	78	1
 2	0	77	9
 3	0	72	2
