@@ -1,4 +1,4 @@
-Treated_NO	Treated_D	Treated_YR	Treated_R3
+ID	failed/healthy	Bankruptcy_Failed_YR	Cash/Assets
 1	0	78	1
 2	0	77	9
 3	0	72	2
