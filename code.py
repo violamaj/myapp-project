@@ -24,7 +24,7 @@ Bankruptcy = pd.read_csv(address)
 Bankruptcy.columns = ['ID','failed/healthy','Failed_YR','Cash/Assets']
 data = Bankruptcy.iloc[:,[12,4]].values
 data_names = ["Failed_YR","Cash/Assets"]
-y = cars.iloc[:,[2]].values
+y = Bankruptcy.iloc[:,[2]].values
 
 Failed_YR = Bankruptcy["Failed_YR"]
 Cash/Assets = Bankruptcy["Cash/Assets"]
@@ -34,7 +34,7 @@ spearmanr_coff, p_value = spearmanr(Failed_YR,Cash/Assets)
 spearmanr_coff
 #negative no correlation
 
-cars.isnull().sum()
+Bankruptcy.isnull().sum()
 
 sb.countplot(x="Failed_YR",data=Bankruptcy,palette="hls")
 
