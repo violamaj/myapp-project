@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Fetching HTML Elements in Variables by ID.
 var x = document.getElementById("form_sample");
 var createform = document.createElement('form'); // Create New Element Form
@@ -114,4 +113,3 @@ submitelement.setAttribute("type", "submit");
 submitelement.setAttribute("name", "dsubmit");
 submitelement.setAttribute("value", "Submit");
 createform.appendChild(submitelement);
->>>>>>> a01ced7241efd1e2f2272f0ad16fd89717843bc7
